@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventures With Anxiety - Play Online Game</title>
+    <link rel="canonical" href="https://adventureswithanxiety.site/">
+    <meta name="description" content="Play Adventures With Anxiety online - A humorous and insightful game about understanding anxiety disorder through interactive storytelling.">
+    <meta name="keywords" content="Adventures With Anxiety, online game, anxiety disorder, mental health game, interactive story, play for free">
+    <meta name="author" content="Adventures With Anxiety">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- Tailwind CSS Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        // Apple typical color palette
+                        'apple-blue': '#0071e3',
+                        'apple-gray': '#f5f5f7',
+                        'apple-dark-gray': '#86868b',
+                        'apple-black': '#1d1d1f',
+                        'apple-light-gray': '#d2d2d7',
+                        'apple-white': '#ffffff',
+                        'apple-green': '#34c759',
+                        'apple-amber': '#ff9500'
+                    },
+                    fontFamily: {
+                        'apple-sans': ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif']
+                    },
+                    boxShadow: {
+                        'apple': '0 4px 20px rgba(0, 0, 0, 0.08)',
+                        'apple-hover': '0 8px 30px rgba(0, 0, 0, 0.12)'
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom Styles -->
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .text-balance {
+                text-wrap: balance;
+            }
+            .iframe-container {
+                position: relative;
+                width: 100%;
+                overflow: hidden;
+                padding-top: 56.25%;
+            }
+            .iframe-container iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+            }
+            .animate-fade-in {
+                animation: fadeIn 0.8s ease-in-out;
+            }
+            @keyframes fadeIn {
+                from { opacity: 0; transform: translateY(20px); }
+                to { opacity: 1; transform: translateY(0); }
+            }
+        }
+    </style>
+</head>
+<body class="font-apple-sans bg-apple-gray text-apple-black min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="bg-apple-white shadow-sm sticky top-0 z-50 transition-all duration-300">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16 sm:h-20">
+                <div class="flex items-center space-x-2">
+                    <i class="fa fa-gamepad text-2xl text-apple-blue"></i>
+                    <span class="text-lg sm:text-xl font-semibold tracking-tight">Adventures With Anxiety</span>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#play" class="text-apple-black hover:text-apple-blue transition-colors font-medium">Play Game</a>
+                    <a href="#about" class="text-apple-black hover:text-apple-blue transition-colors font-medium">About</a>
+                    <a href="#features" class="text-apple-black hover:text-apple-blue transition-colors font-medium">Features</a>
+                    <a href="#resources" class="text-apple-black hover:text-apple-blue transition-colors font-medium">Resources</a>
+                </nav>
+                <div class="md:hidden">
+                    <button type="button" class="text-apple-black hover:text-apple-blue focus:outline-none" aria-label="Main menu">
+                        <i class="fa fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-8 pb-12 sm:pt-16 sm:pb-20 bg-gradient-to-b from-apple-white to-apple-gray">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto text-center animate-fade-in">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-balance leading-tight mb-6">
+                    Adventures With Anxiety
+                </h1>
+                <p class="text-lg sm:text-xl text-apple-dark-gray mb-8 text-balance">
+                    An interactive journey that helps you understand anxiety with humor, insight, and a hyperactive wolf companion.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#play" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-apple-blue hover:bg-opacity-90 transition-colors duration-300">
+                        <i class="fa fa-play-circle mr-2"></i> Play Now
+                    </a>
+                    <a href="#about" class="inline-flex items-center justify-center px-6 py-3 border border-apple-light-gray text-base font-medium rounded-md text-apple-black bg-apple-white hover:bg-apple-gray transition-colors duration-300">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Play Section -->
+    <section id="play" class="py-12 bg-apple-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-2xl sm:text-3xl font-semibold mb-8 text-center">Play Adventures With Anxiety</h2>
+                
+                <!-- Game iframe with responsive container -->
+                <div class="bg-apple-black rounded-xl overflow-hidden shadow-apple transition-all duration-300 hover:shadow-apple-hover">
+                    <div class="iframe-container">
+                        <iframe src="https://html-classic.itch.zone/html/1830885/index.html?v=1577643761" width="100%" height="100%" frameborder="0" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                </div>
+                
+                <!-- Game Controls Info -->
+                <div class="mt-8 bg-apple-gray p-6 rounded-lg">
+                    <h3 class="text-lg font-medium mb-4">How to Play</h3>
+                    <p class="text-apple-dark-gray mb-4">This game is played directly in your browser. Use your mouse or touch screen to interact with the game elements.</p>
+                    <div class="flex flex-wrap gap-4">
+                        <div class="flex items-center text-sm text-apple-dark-gray">
+                            <i class="fa fa-mouse-pointer mr-2 text-apple-blue"></i>
+                            <span>Click/Tap to interact</span>
+                        </div>
+                        <div class="flex items-center text-sm text-apple-dark-gray">
+                            <i class="fa fa-keyboard-o mr-2 text-apple-blue"></i>
+                            <span>Spacebar to advance text</span>
+                        </div>
+                        <div class="flex items-center text-sm text-apple-dark-gray">
+                            <i class="fa fa-expand mr-2 text-apple-blue"></i>
+                            <span>Fullscreen available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-12 bg-apple-gray">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-2xl sm:text-3xl font-semibold mb-6 text-center">About the Game</h2>
+                
+                <div class="bg-apple-white p-6 sm:p-8 rounded-xl shadow-apple">
+                    <p class="text-apple-dark-gray mb-6 leading-relaxed">
+                        Adventures With Anxiety is a unique interactive experience created for individuals dealing with anxiety disorder. Developed by someone who personally understands anxiety, this game uses humor and relatable scenarios to help players visualize how anxiety works.
+                    </p>
+                    <p class="text-apple-dark-gray mb-6 leading-relaxed">
+                        Through its simple yet engaging stick figure art style and a hyperactive wolf companion, the game offers insights into the inner workings of anxiety while reducing the fear of fear itself.
+                    </p>
+                    <div class="border-t border-apple-light-gray pt-6 mt-6">
+                        <h3 class="text-lg font-medium mb-4">Content Note</h3>
+                        <p class="text-apple-dark-gray text-sm italic">
+                            This game contains themes of anxiety, alcohol abuse, sexuality, and strong language. It's intended for a mature audience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-12 bg-apple-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl sm:text-3xl font-semibold mb-8 text-center">Game Features</h2>
+            
+            <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Feature Card 1 -->
+                <div class="bg-apple-gray rounded-xl p-6 transition-all duration-300 hover:shadow-apple-hover">
+                    <div class="w-12 h-12 bg-apple-blue bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <i class="fa fa-lightbulb-o text-xl text-apple-blue"></i>
+                    </div>
+                    <h3 class="text-lg font-medium mb-2">Educational Insight</h3>
+                    <p class="text-apple-dark-gray">Gain a better understanding of how anxiety manifests and affects daily life.</p>
+                </div>
+                
+                <!-- Feature Card 2 -->
+                <div class="bg-apple-gray rounded-xl p-6 transition-all duration-300 hover:shadow-apple-hover">
+                    <div class="w-12 h-12 bg-apple-green bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <i class="fa fa-smile-o text-xl text-apple-green"></i>
+                    </div>
+                    <h3 class="text-lg font-medium mb-2">Humor & Storytelling</h3>
+                    <p class="text-apple-dark-gray">Experience a relatable narrative told with humor and authenticity.</p>
+                </div>
+                
+                <!-- Feature Card 3 -->
+                <div class="bg-apple-gray rounded-xl p-6 transition-all duration-300 hover:shadow-apple-hover">
+                    <div class="w-12 h-12 bg-apple-amber bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <i class="fa fa-paint-brush text-xl text-apple-amber"></i>
+                    </div>
+                    <h3 class="text-lg font-medium mb-2">Unique Art Style</h3>
+                    <p class="text-apple-dark-gray">Enjoy the charming hand-drawn stick figure aesthetic throughout the game.</p>
+                </div>
+                
+                <!-- Feature Card 4 -->
+                <div class="bg-apple-gray rounded-xl p-6 transition-all duration-300 hover:shadow-apple-hover">
+                    <div class="w-12 h-12 bg-apple-blue bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <i class="fa fa-compass text-xl text-apple-blue"></i>
+                    </div>
+                    <h3 class="text-lg font-medium mb-2">Interactive Journey</h3>
+                    <p class="text-apple-dark-gray">Engage with the story through simple point-and-click interactions.</p>
+                </div>
+                
+                <!-- Feature Card 5 -->
+                <div class="bg-apple-gray rounded-xl p-6 transition-all duration-300 hover:shadow-apple-hover">
+                    <div class="w-12 h-12 bg-apple-green bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <i class="fa fa-heart-o text-xl text-apple-green"></i>
+                    </div>
+                    <h3 class="text-lg font-medium mb-2">Mental Health Focus</h3>
+                    <p class="text-apple-dark-gray">Designed to help reduce the stigma around anxiety and mental health.</p>
+                </div>
+                
+                <!-- Feature Card 6 -->
+                <div class="bg-apple-gray rounded-xl p-6 transition-all duration-300 hover:shadow-apple-hover">
+                    <div class="w-12 h-12 bg-apple-amber bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <i class="fa fa-globe text-xl text-apple-amber"></i>
+                    </div>
+                    <h3 class="text-lg font-medium mb-2">Play Anywhere</h3>
+                    <p class="text-apple-dark-gray">Works on any modern browser, no downloads or installations needed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="py-12 bg-apple-gray">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-2xl sm:text-3xl font-semibold mb-6 text-center">Mental Health Resources</h2>
+                
+                <div class="bg-apple-white p-6 sm:p-8 rounded-xl shadow-apple">
+                    <p class="text-apple-dark-gray mb-6">
+                        If you or someone you know is struggling with anxiety or mental health issues, these resources may be helpful:
+                    </p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <i class="fa fa-link text-apple-blue"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-base font-medium text-apple-black">Mental Health Resources Hub</h3>
+                                <p class="text-sm text-apple-dark-gray">Comprehensive guides and support options for various mental health concerns.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <i class="fa fa-heart-o text-apple-green"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-base font-medium text-apple-black">Anxiety and Depression Association of America</h3>
+                                <p class="text-sm text-apple-dark-gray">Information, support, and resources for anxiety disorders.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <i class="fa fa-phone text-apple-amber"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-base font-medium text-apple-black">Crisis Support Lines</h3>
+                                <p class="text-sm text-apple-dark-gray">Immediate help is available through various crisis support services.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8 pt-6 border-t border-apple-light-gray">
+                        <p class="text-sm text-apple-dark-gray italic text-center">
+                            Remember, you are not alone. Seeking help is a sign of strength, not weakness.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-apple-black text-apple-white py-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-6xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div>
+                        <div class="flex items-center space-x-2 mb-4">
+                            <i class="fa fa-gamepad text-xl text-apple-blue"></i>
+                            <span class="text-lg font-semibold">Adventures With Anxiety</span>
+                        </div>
+                        <p class="text-apple-dark-gray text-sm mb-4">
+                            A game that helps you understand anxiety with humor and insight.
+                        </p>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-apple-dark-gray hover:text-apple-white transition-colors">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#" class="text-apple-dark-gray hover:text-apple-white transition-colors">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="#" class="text-apple-dark-gray hover:text-apple-white transition-colors">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a href="#" class="text-apple-dark-gray hover:text-apple-white transition-colors">
+                                <i class="fa fa-youtube-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-base font-medium mb-4">Quick Links</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li><a href="#play" class="text-apple-dark-gray hover:text-apple-white transition-colors">Play Game</a></li>
+                            <li><a href="#about" class="text-apple-dark-gray hover:text-apple-white transition-colors">About</a></li>
+                            <li><a href="#features" class="text-apple-dark-gray hover:text-apple-white transition-colors">Features</a></li>
+                            <li><a href="#resources" class="text-apple-dark-gray hover:text-apple-white transition-colors">Resources</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-base font-medium mb-4">Legal</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li><a href="#" class="text-apple-dark-gray hover:text-apple-white transition-colors">Privacy Policy</a></li>
+                            <li><a href="#" class="text-apple-dark-gray hover:text-apple-white transition-colors">Terms of Service</a></li>
+                            <li><a href="#" class="text-apple-dark-gray hover:text-apple-white transition-colors">Cookie Policy</a></li>
+                            <li><a href="#" class="text-apple-dark-gray hover:text-apple-white transition-colors">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="mt-12 pt-8 border-t border-apple-dark-gray">
+                    <p class="text-center text-apple-dark-gray text-sm">
+                        &copy; 2024 Adventures With Anxiety. All rights reserved. This is a fan-made website.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="fixed bottom-6 right-6 bg-apple-blue text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg opacity-0 invisible transition-all duration-300 hover:bg-opacity-90">
+        <i class="fa fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu toggle
+        const menuButton = document.querySelector('button[aria-label="Main menu"]');
+        if (menuButton) {
+            menuButton.addEventListener('click', () => {
+                // Implement mobile menu toggle logic
+                console.log('Mobile menu toggle clicked');
+            });
+        }
+
+        // Back to top button functionality
+        const backToTopButton = document.getElementById('backToTop');
+        if (backToTopButton) {
+            window.addEventListener('scroll', () => {
+                if (window.pageYOffset > 300) {
+                    backToTopButton.classList.remove('opacity-0', 'invisible');
+                    backToTopButton.classList.add('opacity-100', 'visible');
+                } else {
+                    backToTopButton.classList.remove('opacity-100', 'visible');
+                    backToTopButton.classList.add('opacity-0', 'invisible');
+                }
+            });
+
+            backToTopButton.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Header scroll effect
+        const header = document.querySelector('header');
+        if (header) {
+            let lastScrollTop = 0;
+            window.addEventListener('scroll', () => {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                
+                if (scrollTop > 50) {
+                    header.classList.add('shadow-md');
+                    header.classList.remove('shadow-sm');
+                } else {
+                    header.classList.remove('shadow-md');
+                    header.classList.add('shadow-sm');
+                }
+                
+                lastScrollTop = scrollTop;
+            });
+        }
+    </script>
+</body>
+</html>
